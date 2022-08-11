@@ -1,0 +1,15 @@
+pnpx prisma init --datasource-provider sqlite
+git init
+git add .
+pnpm i @prisma/client
+
+pnpx prisma db push
+
+pnpx prisma studio
+
+ pnpm i bcrypt
+pnpm i -D @types/bcrypt
+npm i cookie
+npm i -D @types/cookie
+
+ 
